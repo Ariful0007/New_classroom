@@ -1,4 +1,3 @@
-# newclass
 <!DOCTYPE html>
 <html>
 <head>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/stream"
+        android:icon="@drawable/ic_stream"
+        android:title="Stream" />
+    <item
+        android:id="@+id/classrowk"
+        android:icon="@drawable/ic_classwork"
+        android:title="Class Work" />
+    <item
+        android:id="@+id/teaching"
+        android:icon="@drawable/ic_people"
+        android:title="People" />
+</menu>

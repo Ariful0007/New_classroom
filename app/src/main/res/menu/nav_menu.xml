@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/notification"
+        android:title="Norificatoin" />
+
+    <item
+        android:id="@+id/stream"
+        android:icon="@drawable/ic_stream"
+        android:title="Stream" />
+    <item
+        android:id="@+id/classrowk"
+        android:icon="@drawable/ic_classwork"
+        android:title="Class Work" />
+    <item
+        android:id="@+id/examination"
+        android:icon="@drawable/conversation"
+        android:title="Class Examination" />
+    <item
+    android:id="@+id/teaching"
+    android:icon="@drawable/ic_people"
+    android:title="People" />
+    <item
+        android:id="@+id/startclass"
+        android:icon="@drawable/power"
+        android:title="Start Class" />
+    <item
+        android:id="@+id/attend"
+        android:icon="@drawable/attendance"
+        android:title="Attendence" />
+    <item
+        android:id="@+id/pdf"
+        android:icon="@drawable/pdf_icon"
+        android:title="Class Pdf" />
+    <item
+        android:id="@+id/videos"
+        android:icon="@drawable/play"
+        android:title="Class Video" />
+</menu>

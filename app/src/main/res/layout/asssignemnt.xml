@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="@dimen/space_5dp"
+
+    android:layout_marginTop="@dimen/space_5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#fff"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="10dp"
+
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="#fff"
+                    app:cardUseCompatPadding="true"
+                    app:cardElevation="4dp"
+
+                    app:cardCornerRadius="10dp"
+
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    >
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+
+
+                        >
+                        <ImageView
+                            android:id="@+id/image"
+
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_assignemnt"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_margin="@dimen/space_5dp"
+                            ></ImageView>
+                        <RelativeLayout
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@id/image"
+                            android:id="@+id/layout"
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/customer_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+
+                                android:layout_marginLeft="@dimen/space_10dp"
+                                android:layout_marginTop="25dp"
+                                android:text="সাবেক : "
+                                android:fontFamily="@font/josefinsans_semibold"
+                                android:layout_centerVertical="true"
+
+                                android:textSize="12dp"></TextView>
+
+                            <TextView
+
+                                android:layout_alignParentRight="true"
+                                android:id="@+id/customer_number"
+                                android:layout_centerVertical="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+
+
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="@dimen/space_20dp"
+                                android:layout_marginRight="80dp"
+
+                                android:textAllCaps="false"
+                                android:textColor="@color/md_pink_800"
+                                android:textSize="12dp"></TextView>
+
+
+                            <TextView
+                                android:id="@+id/logout"
+                                android:textStyle="bold"
+                                android:layout_centerVertical="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+
+
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="@dimen/space_20dp"
+                                android:layout_marginRight="20dp"
+
+                                android:textAllCaps="false"
+                                android:textColor="@color/md_pink_800"
+                                android:textSize="12dp"></TextView>
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <View android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_width_small"
+                    android:background="@color/grey_light"
+                    android:layout_marginTop="0dp"/>
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+
+                    android:textColor="#000"
+                    android:id="@+id/classs"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/text_input_bg"
+                    android:textAlignment="viewStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Add  Class Comment"
+                    android:layout_marginBottom="10dp"
+                    ></TextView>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

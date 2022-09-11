@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.meass.universityclass">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATIONS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:exported="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MyAllNotification"></activity>
+        <activity android:name=".MyNotificationList" />
+        <activity android:name=".Create_Notifications" />
+        <activity android:name=".MyClassPdf" />
+        <activity android:name=".Local_pdf" />
+        <activity android:name=".Add_newPdf" />
+        <activity android:name=".Download_list" />
+        <activity android:name=".Second_PdfView" />
+        <activity android:name=".PdfList" />
+        <activity android:name=".ClassVideoList" />
+        <activity android:name=".MyVideoLIst" />
+        <activity android:name=".Add_Video" />
+        <activity android:name=".ExaminandAnsweList" />
+        <activity android:name=".OnlineMyExam" />
+        <activity android:name=".MyExamAnswer" />
+        <activity android:name=".AnswerSheet" />
+        <activity android:name=".MyExamList" />
+        <activity android:name=".Create_Exam" />
+        <activity android:name=".CodeTestComapiler" />
+        <activity android:name=".Settins2" />
+        <activity android:name=".NoteActivity" />
+        <activity android:name=".NotesListActivity" />
+        <activity android:name=".CalenderActivityyy" />
+        <activity android:name=".DetailsView" />
+        <activity android:name=".Create_CodingProblem" />
+        <activity android:name=".Coding_Home" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".MyAttendence" />
+        <activity android:name=".MyClassPeople" />
+        <activity android:name=".MyAllAnswers" />
+        <activity android:name=".MyAnswer" />
+        <activity android:name=".MyJoiningHome" />
+        <activity android:name=".AttendenceList" />
+        <activity android:name=".PeopleList" />
+        <activity android:name=".Class_Work" />
+        <activity android:name=".Assignment_Create" />
+        <activity android:name=".MyClassHome" />
+        <activity android:name=".My_Teaching_List" />
+        <activity android:name=".Create_Class" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".Register2" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".HomeACTIVITY" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

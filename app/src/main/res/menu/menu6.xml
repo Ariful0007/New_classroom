@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+
+        android:id="@+id/addNote"
+        android:icon="@drawable/home"
+        android:title="Classes" />
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        android:title="Calender" />
+    <item
+        android:id="@+id/notess"
+        android:icon="@drawable/notes"
+        android:title="My Note" />
+
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/notification"
+        android:title="Norificatoin" />
+    <item
+        android:id="@+id/code"
+        android:icon="@drawable/coding"
+        android:title="Coding Blog" />
+    <item
+        android:id="@+id/shareapp2"
+        android:icon="@drawable/ic_baseline_vpn_key_24"
+        android:title="Log out" />
+    <item android:title="Teaching">
+        <menu>
+            <item
+                android:id="@+id/teaching"
+                android:icon="@drawable/presentation"
+                android:title="My Creating Class" />
+        </menu>
+    </item>
+<item android:title="Enrolled"
+    >
+    <menu>
+        <item
+            android:id="@+id/menuwork"
+            android:icon="@drawable/ic_baseline_work_outline_24"
+            android:title="To Do" />
+        <item
+            android:id="@+id/myjoining"
+            android:icon="@drawable/education"
+            android:title="My Classrooms" />
+
+    </menu>
+</item>
+
+</menu>

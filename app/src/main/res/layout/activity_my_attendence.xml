@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+
+    tools:context=".MyAttendence">
+    <RelativeLayout
+
+        android:id="@+id/main_constraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/gradient_background"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+    </RelativeLayout>
+    <ScrollView
+        android:background="#fff"
+        android:layout_below="@id/main_constraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_below="@id/main_constraint"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:layout_marginTop="30dp"
+
+
+                        android:inputType="textMultiLine"
+                        android:enabled="false"
+                        android:maxLines="500"
+                        android:text="Your Attendence Rate : "
+                        android:textAlignment="center"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/josefinsans_semibold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/black"
+                        android:id="@+id/usernam2e"
+                        android:hint="Details"/>
+                    <RelativeLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                        <com.owater.library.CircleTextView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:ct_backgroundColor="#0099CC"
+                            app:ct_border_width="10dp"
+                            android:id="@+id/circle"
+                            android:layout_centerInParent="true"
+                            app:ct_border_color="#0099CC"
+                            app:ct_border_alpha="0.5"
+                            app:ct_type="shadow_alpha"
+                            android:textColor="@color/white"
+                            android:gravity="center"
+                            android:textSize="16sp"
+                            android:layout_marginTop="20dp"
+                            android:text="22:30"/>
+                    </RelativeLayout>
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="@dimen/space_10dp"
+                        android:layout_marginLeft="@dimen/space_10dp"
+
+                        android:layout_width="match_parent"
+                        android:id="@+id/rreeeed"
+                        android:layout_marginBottom="50dp"
+                        android:layout_height="wrap_content"
+                        ></androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

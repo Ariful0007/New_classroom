@@ -1,7 +1,13 @@
-# newclass.github.io
+# newclass
+<!DOCTYPE html>
 <html>
-<title>demo</title>
+<head>
+<title>Page Title</title>
+</head>
 <body>
-<p>this is a text</p>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
 </body>
-<html>
+</html>
